@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap');
+
+.result-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 85vh;
+  background: #0a0f1e;
+  color: white;
+  padding: 60px 20px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.result-card {
+  width: 580px;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 40px 38px;
+  border-radius: 16px;
+  border: 0.5px solid rgba(135, 205, 222, 0.3);
+  box-shadow: 0 0 40px rgba(135, 205, 222, 0.06);
+  text-align: center;
+}
+
+.result-tag {
+  display: inline-block;
+  font-size: 11px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: #87cdde;
+  border: 0.5px solid rgba(135, 205, 222, 0.4);
+  padding: 5px 16px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.career {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #87cdde;
+  margin: 0 0 16px;
+  line-height: 1.2;
+}
+
+.confidence-badge {
+  display: inline-block;
+  background: rgba(135, 205, 222, 0.08);
+  border: 0.5px solid rgba(135, 205, 222, 0.25);
+  color: #87cdde;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 18px;
+  border-radius: 20px;
+  margin-bottom: 32px;
+}
+
+.llm-section {
+  background: rgba(255, 255, 255, 0.02);
+  border: 0.5px solid rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+  padding: 22px 24px;
+  text-align: left;
+  margin-bottom: 28px;
+  overflow: hidden;
+  word-break: break-word;
+}
+
+.llm-label {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #475569;
+  margin-bottom: 12px;
+}
+
+.llm {
+  font-size: 14px;
+  color: #94a3b8;
+  line-height: 1.7;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 14px;
+  margin-bottom: 6px;
+}
+
+.llm h4 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #cbd5e1;
+  font-size: 14px;
+}
+
+.llm ul {
+  padding-left: 18px;
+  margin-bottom: 10px;
+}
+
+.llm li {
+  margin-bottom: 5px;
+  list-style-type: disc;
+}
+
+.llm-divider {
+  border: none;
+  border-top: 1px solid rgba(135, 205, 222, 0.2);
+  margin: 14px 0;
+  width: 100%;
+}
+
+.result-btn {
+  background: transparent;
+  color: #87cdde;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 11px 26px;
+  border-radius: 8px;
+  border: 0.5px solid rgba(135, 205, 222, 0.45);
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.result-btn:hover {
+  background: rgba(135, 205, 222, 0.08);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 620px) {
+  .result-card {
+    width: 100%;
+    padding: 28px 20px;
+  }
+
+  .career {
+    font-size: 28px;
+  }
+}
+
+.loading-page {
+  height: 100vh;
+  background: #0a0f1e;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  gap: 16px;
+}
+
+.loading-page h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #e2e8f0;
+  margin: 0;
+}
+
+.loading-page p {
+  font-size: 13px;
+  color: #475569;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.spinner {
+  width: 52px;
+  height: 52px;
+  border: 3px solid rgba(135, 205, 222, 0.12);
+  border-top: 3px solid #87cdde;
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

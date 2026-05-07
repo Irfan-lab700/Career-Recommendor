@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap');
+
+.resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 85vh;
+  background: #0a0f1e;
+  color: white;
+  padding: 60px 20px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.resume-card {
+  width: 580px;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 40px 38px;
+  border-radius: 16px;
+  border: 0.5px solid rgba(135, 205, 222, 0.3);
+  box-shadow: 0 0 40px rgba(135, 205, 222, 0.06);
+  text-align: center;
+}
+
+.resume-tag {
+  display: inline-block;
+  font-size: 11px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: #87cdde;
+  border: 0.5px solid rgba(135, 205, 222, 0.4);
+  padding: 5px 16px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+}
+
+.resume-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #f1f5f9;
+  margin: 0 0 10px;
+}
+
+.resume-subtitle {
+  font-size: 13px;
+  color: #475569;
+  margin: 0 0 28px;
+  line-height: 1.6;
+}
+
+.resume-upload-area {
+  margin-bottom: 16px;
+}
+
+.resume-file-input {
+  display: none;
+}
+
+.resume-file-label {
+  display: inline-block;
+  background: rgba(135, 205, 222, 0.07);
+  border: 0.5px solid rgba(135, 205, 222, 0.35);
+  color: #87cdde;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 11px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.resume-file-label:hover {
+  background: rgba(135, 205, 222, 0.13);
+}
+
+.resume-file-name {
+  font-size: 12px;
+  color: #87cdde;
+  margin-top: 8px;
+  margin-bottom: 0;
+
+}
+
+.resume-btn {
+  background: #87cdde;
+  color: #0a0f1e;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 30px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.15s ease;
+  margin-bottom: 32px;
+}
+
+.resume-btn:hover {
+  background: #a8dbe8;
+  transform: translateY(-1px);
+}
+
+.resume-result {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.ats-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.ats-label {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #475569;
+}
+
+.ats-circle-wrap {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.ats-svg {
+  width: 120px;
+  height: 120px;
+  transform: rotate(-90deg);
+}
+
+.ats-bg-circle {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.05);
+  stroke-width: 10;
+}
+
+.ats-fill-circle {
+  fill: none;
+  stroke: #87cdde;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transition: stroke-dasharray 0.6s ease;
+}
+
+.ats-score-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.ats-number {
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #87cdde;
+  display: block;
+  line-height: 1;
+}
+
+.ats-total {
+  font-size: 12px;
+  color: #475569;
+}
+
+.skills-section {
+  background: rgba(255, 255, 255, 0.02);
+  border: 0.5px solid rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.section-label {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #475569;
+  margin-bottom: 14px;
+}
+
+.skills-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-badge {
+  background: rgba(135, 205, 222, 0.08);
+  border: 0.5px solid rgba(135, 205, 222, 0.25);
+  color: #87cdde;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 14px;
+  border-radius: 20px;
+}
+
+.analysis-section {
+  background: rgba(255, 255, 255, 0.02);
+  border: 0.5px solid rgba(255, 255, 255, 0.07);
+  border-radius: 12px;
+  padding: 20px;
+}
+.analysis-box {
+  font-size: 14px;
+  color: #94a3b8;
+  line-height: 1.8;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
+
+.analysis-box ul {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.analysis-box li {
+  margin-bottom: 6px;
+  list-style-type: disc;
+}
+
+.analysis-divider {
+  border: none;
+  border-top: 1px solid rgba(135, 205, 222, 0.2);
+  margin: 14px 0;
+}
+
+@media (max-width: 620px) {
+  .resume-card {
+    width: 100%;
+    padding: 28px 20px;
+  }
+
+  .resume-title {
+    font-size: 22px;
+  }
+}
