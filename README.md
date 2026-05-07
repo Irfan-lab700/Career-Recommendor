@@ -1,4 +1,4 @@
-# 🎯 Rizzora — AI-Powered Career Recommendation & Guidance Platform
+# 🎯 CareerAI — AI-Powered Career Recommendation & Guidance Platform
 
 > Discover your ideal career path using ML-powered predictions, analyze your resume for ATS compatibility, and receive a personalized AI-generated roadmap.
 
